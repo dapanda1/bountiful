@@ -86,6 +86,7 @@ item[location] CONTENT_ITEMS = {
   $location[The Jungles of Ancient Loathing] : $item[empty agua de vida bottle],
   $location[Chinatown Shops] : $item[jar of psychoses (The Suspicious-Looking Guy)],
   $location[the Secret Government Laboratory] : $item[one-day ticket to Conspiracy Island]
+  $location[The Degrassi Knoll Restroom] : $item[hewn moon-rune spoon]
 };
 
 // "No Banish" Locations
@@ -368,7 +369,7 @@ boolean checkFax(monster enemy)
 
 /**
 * Attempts to fax and fight a monster. 
-* Will try CheeseFax first and if fails attempts EasyFax
+* Will try OnlyFax first and if fails attempts EasyFax
 * @param {monster} enemy - desired fax target
 * @returns {boolean} - true if desired monster was faxed and fought
 */
@@ -414,8 +415,8 @@ boolean handleFaxMonster(monster enemy)
     }
   }
 
-  print("Faxing: " + enemy + " using cheesefax.", "green");
-  chat_private("cheesefax", enemy.to_string());
+  print("Faxing: " + enemy + " using onlyfax.", "green");
+  chat_private("onlyfax", enemy.to_string());
   for(int i = 0; i < 3; i++)
   {
     //wait 10 seconds before trying to get fax
