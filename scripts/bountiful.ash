@@ -85,7 +85,7 @@ item[location] CONTENT_ITEMS = {
   $location[Mt. Molehill] : $item[llama lama gong],
   $location[The Jungles of Ancient Loathing] : $item[empty agua de vida bottle],
   $location[Chinatown Shops] : $item[jar of psychoses (The Suspicious-Looking Guy)],
-  $location[the Secret Government Laboratory] : $item[one-day ticket to Conspiracy Island]
+  $location[the Secret Government Laboratory] : $item[one-day ticket to Conspiracy Island],
   $location[The Degrassi Knoll Restroom] : $item[hewn moon-rune spoon]
 };
 
